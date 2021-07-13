@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Adam Sullivan"
+  },
+  "text": {
+    "more": "Figure 17 demonstrates the interactions that occur across systems for outcome measures taken at the organ system level. The 218 unique measures taken at this level interact with five different systems due to the nature of the outcome measure (see figure 13). ",
+    "intro": "Figure 17 demonstrates the interactions that occur across systems for outcome measures taken at the organ system level. ",
+    "title": "Organ System Network"
+  },
+  "legend": {
+    "edgeLabel": "Edge colour based on the system node colour, no. of edges that interact with an outcome measure indicate the no. of systems that measure interacts with",
+    "colorLabel": "System Node",
+    "nodeLabel": "Black nodes indicate outcome measures, coloured nodes indicate system"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Weighted Degree",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 20,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 20
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1.5,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 3,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
